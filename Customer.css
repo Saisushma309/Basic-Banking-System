@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+    background-size: cover;
+}
+#nav-bar
+{
+    text-decoration: none;
+	top:0;
+	z-index:10;
+	float: right;
+}
+.navbar
+{
+	padding: 0 !important;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+font-weight:600;
+float:right;
+text-align:left;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    color: white!important;
+    
+}
+
+.nav-link{
+    float: right;
+    color: white!important;
+    
+}
+
+.nav-link:hover{
+    color: black;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+
+#main
+{
+	text-align: center;
+    background-image: url(/finance-money-transaction-technology_31965-1134.jpg);
+    background-size: cover;
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(78, 153, 223)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(43, 43, 44)!important;
+}
